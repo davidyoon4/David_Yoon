@@ -1,8 +1,14 @@
+html body {
+    background-color: rgba(0,0,0, 1.0);
+
+}
+
 body, html{
     /* margin-top: 100px;
     margin-bottom: 100px; */
     margin-right: 5px;
     margin-left: 5px;
+/*   background-color: rgb(15, 15, 15);*/
 }
 
 
@@ -15,7 +21,7 @@ h1{
 
 h2{
     color:white;
-    font-size: 60px;
+    font-size: 57px !important;
     font-weight: 90;
     font-family: "Open Sans", sans-serif;
     margin: 90px 0;
@@ -23,54 +29,68 @@ h2{
     padding-right: 300px;
 }
 
+
 h4{
     color:white;
     font-size: 40px;
-    font-weight: 90;
+    font-weight: 100;
     font-family: "Open Sans", sans-serif;
     margin: 90px 0;
 }
 
-body{
-    background-color: rgb(15, 15, 15);
-} 
+#who{
+    color:white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
+
+.intro{
+    background-color: black;
+    margin: 180px 0 90px 0;
+}
+
+.about{
+    display:flex;
+    flex-direction:column;
+    justify-content: left;
+    align-items: left;
+    margin: 40px 0;
+
+}
 
 .flex-containeer{
     display:flex;
     flex-direction:column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 
 img{
     /* widows: 4500; height:300px; */
     display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     width: 97%;
     height: 400px;
     object-fit: cover;
 }
 
 
-
-p{
-    color:white;
-    font-size: 20px;
-    font-weight: 100;
-    font-family: 'Poppins', sans-serif;
-    margin: 90px 0;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(15, 15, 15);
+    background-color: black;
     overflow: hidden;
-    padding: 20px
+    padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
   }
+
   
   /* Style the links inside the navigation bar */
   .topnav a{
@@ -105,6 +125,7 @@ p{
   
   .topnav a:hover {
     color: rgb(190, 190, 190);
+    text-decoration: none;
     border-bottom: 1px solid rgb(190, 190, 190);
     border-bottom-width: thin ;
   }
@@ -113,7 +134,15 @@ p{
     border-bottom: 1px solid white;
   }
 
-  p{
+  .abitofmywork{
+    color: white;
+    margin: 60px 0 -60px -40px;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 250;
+    font-size: 40px;
+}
+
+  #p1 #p2 #p3 #p4{
     font-family:'Poppins', sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -124,12 +153,13 @@ p{
     line-height: 1.8;
   }
  
-/* .flex-containeer{
+.flex-container{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly;
-    align-items: center; */
-/* } */
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+ }
 
 .col {
     flex: 50%;
@@ -172,10 +202,6 @@ p{
     text-align: center;
   }
 
-
-
-
-
 .container .title{
     color: #1a1a1a;
     text-align: center;
@@ -189,9 +215,9 @@ p{
   }
   
   .content .content-overlay {
-    background: rgba(0,0,0,0.7);
+    background-color: black;
     position: absolute;
-    height: 99%;
+    height: 100%;
     width: 100%;
     left: 0;
     top: 0;
@@ -204,7 +230,7 @@ p{
   }
   
   .content:hover .content-overlay{
-    opacity: 1;
+    opacity: .6;
   }
   
   .content-image{
@@ -263,3 +289,48 @@ p{
   .fadeIn-right{
     left: 80%;
   }
+
+  .about2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(231, 248, 238);
+    color: black;
+    margin: 90px 0;
+    padding: 100px 0;
+    font-size: 42px;
+    font-family: 'Poppins' sans-serif;
+  }
+
+  .button {
+    background-color: rgb(40, 214, 95);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 40px 0;
+    border-radius: 50px;
+  }
+
+  .footer{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      overflow: hidden;
+      padding: 20px;
+      background-color: black;     
+  }
+
+  #link1, #link2{
+    color: white !important;
+    font-weight: 100;
+    font-family: 'Poppins' sans-serif;
+  }
+
