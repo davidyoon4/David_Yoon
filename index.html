@@ -4,7 +4,8 @@
         <title>David Yoon</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   </head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+      </head>
     <body>
         <div class="topnav" id="navbar">
             <div class="name">
@@ -29,13 +30,24 @@
         </div> -->
 
         <div class="intro">
-            <h2>Hello! I'm David, a student practicing design engineering.</h2>
+            <h2>Hello! I'm David. <br>I'm
+                <span class="txt-rotate" data-period="2000" 
+				data-rotate='["a product design engineer.", "a student.", "solving meaningful problems."]'></span>
+            </h2>
+        </div>
+
+        <div class="downarrow">
+            <i class="arrow down"></i>
+        </div>
+
+        <div class="fixed-bg">
+            <!-- <img src="https://drive.google.com/uc?id=1uGl9MXVtBSbditqmDCusu0NX1WBCfXIn"> -->
         </div>
 
         <div class="flex-container">
-            <img src="https://drive.google.com/uc?id=1uGl9MXVtBSbditqmDCusu0NX1WBCfXIn">
+            
         
-                <div class="about">
+                <!-- <div class="about">
                     <h4>Who I am <br><br> </h4>
 
                     <p id="who">
@@ -48,7 +60,7 @@
                     <div class="abitofmywork">
                         <p>A bit of my work</p>
                     </div>
-                </div>
+                </div> -->
     
             
 
@@ -60,7 +72,7 @@
                     <div class="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                           <div class="content-overlay"></div>
-                          <img class="content-image" src="https://drive.google.com/uc?id=19ouYSyBwJVE77VLaWO5IJYCO62qvBOyF">
+                          <img class="content-image" src="https://i.imgur.com/zG9Dpfg.png">
                           <div class="content-details fadeIn-top fadeIn-left">
                             <h3>INTUITION</h3>
                             <p id="p1">self-explanatory dishwasher loading rack</p>
@@ -76,7 +88,7 @@
                     <div class="content">
                         <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                           <div class="content-overlay"></div>
-                          <img class="content-image" src="https://drive.google.com/uc?id=11_oOJX6oBO_cmAhYfdhuEocLP_tvfTC6">
+                          <img class="content-image" src="https://i.imgur.com/eCBA4Fo.png">
                           <div class="content-details fadeIn-top fadeIn-right">
                             <h3>gaia Wearables</h3>
                             <p id="p2">smart watch for children with ASD</p>
@@ -93,7 +105,7 @@
                         <div class="content">
                             <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                               <div class="content-overlay"></div>
-                              <img class="content-image" src="https://drive.google.com/uc?id=160EcFtFu0B8rEt5cO7YocqHEfEJ9PkIA">
+                              <img class="content-image" src="https://i.imgur.com/14nBiL7.png">
                               <div class="content-details fadeIn-bottom fadeIn-left">
                                 <h3>OverTurn</h3>
                                 <p id="p3">bed guardrail for child with muscular dystrophy</p>
@@ -107,7 +119,7 @@
                         <div class="content">
                             <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                               <div class="content-overlay"></div>
-                              <img class="content-image" src="https://drive.google.com/uc?id=1pq0p1AcMTk0t320yi2rCZZvN672xvwkM">
+                              <img class="content-image" src="https://i.imgur.com/dRLQkPl.png">
                               <div class="content-details fadeIn-bottom fadeIn-right">
                                 <h3>Trigon</h3>
                                 <p id="p4">portable, modular coffee experience</p>
@@ -136,5 +148,7 @@
             </div>   
          </footer>
     </body> 
+    <script src="topnav.js"></script>
+    <script src="typewriter.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
