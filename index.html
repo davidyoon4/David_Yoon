@@ -2,69 +2,96 @@
 <html>
     <head>
         <title>David Yoon</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        <meta charset="UTF-8">
+        <meta name="description" content="David Yoon - Human Centered Product Designer, UX/UI engineer">
+        <meta name="author" content="David Yoon">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="globalStyles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        <link href="https:/fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
       </head>
+
     <body>
-        <div class="topnav" id="navbar">
-            <div class="name">
-                <a href="index.html">David Yoon</a>
+      <!----------------------NAVBAR---------------------->
+        <div class="topnav flexRow" id="navbar">
+            <div class="topnav_left">
+              <a class="name" href="index.html">David Yoon</a>
             </div> 
-            <div>
-                <a class="active" href="index.html">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="#Skills">Skills</a>
-                <a href="process.html">Process</a>
-                <a href="about_me.html">About me</a>
-                <a href="#Contact">Contact</a>               
+            <div class="sections">
+                <a class="topnav_item active" href="index.html">Home</a>
+                <a class="topnav_item" href="projects.html">Projects</a>
+                <a class="topnav_item" href="about.html">About</a>
+                <a class="topnav_item" href="https://www.keepandshare.com/doc25/110085/yoon-david-resume-pdf-132k?da=y"target=_blank>Resume</a>               
             </div>
         </div>
         
-        <!-- <div class="header-burger">
-            <button class="burger-button">
-                <div class="burger-box">
-                    <div class="inner-burger"></div>
+      <!----------------------INTRO---------------------->
+        <div class="intro section">
+              <div class="intro">
+                  <h2 class="typing">Hi! I'm David. <br>I'm
+                      <span class="txt-rotate" data-period="2000" 
+                      data-rotate='["a UX engineer.", "designing my own major.", "curating my latest Spotify playlist."]'></span>
+                  </h2>
+              </div>
+
+              <a href="#projects">
+                <div class="arrowContainer">
+                  <div class="arrowContent">
+                    <svg id="more-arrows">
+                      <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 " />
+                      <polygon class="arrow-middle"
+                        points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 " />
+                      <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 " />
+                    </svg>
+                  </div>
                 </div>
-            </button>
-        </div> -->
+              </a>
+          </div>
 
-        <div class="intro">
-            <h2 class="typing">Hello! I'm David. <br>I'm
-                <span class="txt-rotate" data-period="2000" 
-				data-rotate='["a product design engineer.", "a student.", "solving meaningful problems."]'></span>
-            </h2>
-        </div>
-
-        <div class="downarrow">
-            <i class="arrow down"></i>
-        </div>
-
-        <div class="fixed-bg">
-            <!-- <img src="https://drive.google.com/uc?id=1uGl9MXVtBSbditqmDCusu0NX1WBCfXIn"> -->
-        </div>
-
-        <div class="flex-container">
+      <!----------------------SOME OF MY WORK---------------------->
+        <div class="projects section flexColumn" id="projects">
+          <h3 class="sectionTitle">Some of my work</h3>
+          <div class="projectsRow flexRow">
+            <div class="projectsRow__item flexRow">
+              <a href="pages/valert.html">
+                <div class="projectTitle flexRow fullWidth"></div>
+                <img class="fullWidth"
+                  src="https://i.imgur.com/6zBq3I7.png">
+              </a>
+            </div>
             
-        
-                <!-- <div class="about">
-                    <h4>Who I am <br><br> </h4>
-
-                    <p id="who">
-                        I’m a design engineer who focuses on developing solutions to real problems through collaboration. 
-                        <br><br>
-                        Through an understanding of human behavior and thorough research, I work to create pleasure and eliminate frustration in peoples’ lives.
-                        <br><br>
-                        I strive to be disruptive in a given product space, and innovate to evolve.
-                    </p>
-                    <div class="abitofmywork">
-                        <p>A bit of my work</p>
-                    </div>
-                </div> -->
-    
+          </div>
+          <div class="projectsRow flexRow">
+            <div class="projectsRow__item flexRow">
+              <a href="pages/nudge.html">
+                <div class="projectTitle flexRow fullWidth"></div>
+                <img class="fullWidth"
+                  src="https://i.imgur.com/X75JHEC.png">
+              </a>
+            </div>
             
+          </div>
+        </div>
 
-<!-- PROJECTS -->
+      <!----------------------FOOTER---------------------->
+        <div class="contact flexRow">
+          <a href="https://www.linkedin.com/in/david-yoon-473792159/" target=_blank><img class="contact__icon"
+              src="https://i.imgur.com/AS8VUHd.png"></a>
+
+          <a href="https://www.keepandshare.com/doc25/110085/yoon-david-resume-pdf-132k?da=y" target=_blank><img class="contact__icon" id="resume"
+              src="https://i.imgur.com/v5UFOZe.png"></a>
+
+          <a href="mailto:david.yoon@u.northwestern.edu" target=_blank><img class="contact__icon" id="mail"
+              src="https://i.imgur.com/ACNTOmh.png"></a>
+        </div>
+        <div class="footer flexRow">Designed and developed by David Yoon. All rights reserved.</div>
+
+
+
+
+        <!-- <div class="flex-container">
+            
+     
         <div class="container">
             <div class="row">
             <div class="col">
@@ -131,22 +158,9 @@
                 </div>
             </div>
         </div>
-        </div>
-        <div class="break">
-            <p class="about2"> 
-                Let's get in touch!
-                    <button class="button">Contact</button>
-        </div>
-        <footer>
-            <div class="footer">
-                <p>
-                    <a id="link1" href="mailto:david.yoon@u.northwestern.edu">david.yoon@u.northwestern.edu</a>
-                </p>
-                <p>
-                    <a id="link2" href="https://www.linkedin.com/in/david-yoon-473792159/" target="_blank">LinkedIn</a>
-                </p>
-            </div>   
-         </footer>
+        </div> -->
+
+
     </body> 
     <script src="topnav.js"></script>
     <script src="typewriter.js"></script>

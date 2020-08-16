@@ -1,0 +1,396 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+/*---------------------------------------------------------------------------------------------*/
+/*------------------------------------------PROJECT PAGES------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+/*----------------- ELEMENTS --------------------*/
+body{
+    font-size: 20px;
+}
+h3{
+    font-weight: lighter;       
+}
+h1,h2{
+    margin: 10px 0 5px 0;
+}
+
+.introText{
+    position: absolute;
+    font-family: "Open Sans";
+    font-size: 56px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 20%; 
+    line-height: 130%;
+}
+
+.sectionHeader{
+    font-family: "Poppins";
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+
+.sectionText{
+    font-family: "Poppins";
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+}
+
+.sectionText_center{
+    font-family: "Poppins";
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+.sectionTextBold{
+    font-family: "Poppins";
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-align: right;
+}
+
+}
+img {
+    image-orientation: from-image;
+}
+
+
+/*----------------- COVER --------------------*/
+.pageCover{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/*----------------- SECTIONS --------------------*/
+
+.projectSection{
+    padding: 4% 10% 4% 10%;
+    background: white;
+    box-shadow: 0px -1px 1px 0px lightgray;
+}
+
+
+.intro{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coverImage{
+    height: 85vh;
+    width: 100%;
+}
+
+/*----------------- COLLAPSIBLE SECTIONS --------------------*/
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: white;
+    color: #444;
+    cursor: p;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 300;
+    padding: 2% 10%;
+    box-shadow: 0px 1px 1px 0px lightgray;
+
+
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    font-family: "Poppins";
+    font-size: 20px;
+    color: white;
+    font-weight: 300;  
+    transition: max-height 0.2s ease-out;
+    background-color: black;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0% 10%;
+}
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 12px;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .activeCollapsible:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .sectionHeader_exp{
+    font-family: "Poppins";
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.sectionHeader2_exp{
+    font-family: "Poppins";
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.statHeader_exp{
+    font-family: "Poppins";
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    padding-top: 4%;
+    text-align: center;
+    margin: auto;
+}
+
+.statRow_item{
+    margin: 10px 20px;
+    position: relative;
+}
+
+.stat_flexRow{
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.sectionText_exp{
+    font-family: "Poppins";
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.sectionText_centerExp{
+    font-family: "Poppins";
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*--------CONTEXT GRID--------*/
+.item1_context {
+    grid-area: myArea;
+    width: 80%;
+}
+  
+.grid-container_context {
+display: grid;
+grid-template:
+'myArea myArea . . '
+'myArea myArea . . '
+'myArea myArea . . ';
+grid-gap: 20px;
+background-color: white;
+padding: 10px 10px 10px 0px;
+}
+
+
+/*--------RESEARCH GRID--------*/
+.item1_research {
+    grid-area: myArea;
+    text-align: left;
+    padding-bottom: 4%;
+  }
+  
+.grid-container_research {
+    display: grid;
+    grid-template:
+    'myArea myArea myArea';
+    gap: 20px;
+    background-color: white;
+    padding: 10px 10px 10px 0px;
+  }
+
+.grid-container_research > div {
+    text-align: center;
+    align-content: center;
+  }
+
+  .caption{
+    width: 80%;
+    margin: auto;
+    font-family: "Poppins";
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+  }
+
+/*--------RESEARCH_EXP GRID--------*/
+.grid-container_researchExp {
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;;
+    gap: 20px;
+    background-color: black;
+    padding: 10px 10px 10px 0px;
+  }
+
+.grid-container_researchExp > div {
+    text-align: center;
+    align-content: center;
+  }
+
+  .captionExp{
+    width: 30%;
+    margin: auto;
+    color: white;
+    vertical-align: top !important;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+/* ---------------- FIGURES --------------------*/
+.figure{
+    width: 100%;
+    margin: 15px;
+}
+
+.researchIcon{
+    width: 50%;
+}
+
+.rowPics3{
+    width: 70%;
+}
+
+.figure40{
+    width: 40%;
+    padding: 2% 0%;
+}
+
+.figure45{
+    width: 45%;
+    padding: 2% 0%;
+}
+
+.card {
+    /* Add shadows to create the "card" effect
+    box-shadow: 0 4px 8px 0 gray;
+    transition: 0.3s;*/
+    margin: 5%;
+}
+  
+  /* On mouse-over, add a deeper shadow
+.card:hover {
+    box-shadow: 0 6px 12px 0 gray;
+}*/
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 5%;
+}
+
+.figure--screen{
+    width: 100%;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.figure--video{
+    margin-top: 50px;
+}
+
+.padded {
+    padding: 15px;
+}
+.bordered{
+    border: 1px solid #c7c7c7;
+}
+
+.gridPic{
+    width: 420px;
+    margin: 15px;
+}
+
+/* ---------------- LINKS --------------------*/
+.link{
+    color:#fc9f9f;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+
+/* ---------------- BUTTONS  --------------------*/
+
+.linkButton{
+    font-size:20px;
+    background-color:#fc9f9f;
+    padding:10px 20px;
+    border-radius:5px;
+    color:white;
+}
+
+/* ---------------- BOX  --------------------*/
+.boxContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: #40b4e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.box__title{
+    font-weight: bold;
+}
+
+/* ---------------- COLORS  --------------------*/
+.IG_context{
+    color: #94018C;
+}
+
+.IG_research{
+    color: #B5005E;
+}
+
+.IG_prototypes{
+    color: #D80000;
+}
+
+.IG_userTesting{
+    color: #D86A24;
+}
+
+
+
+.projectInfoRow {
+    display: flex;
+    justify-content: space-between;
+}
+.projectInfo {
+    margin: 15px;
+}
