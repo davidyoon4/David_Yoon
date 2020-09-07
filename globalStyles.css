@@ -51,15 +51,14 @@ a{
 	width: 100%;
 }
 
-.fullHeight{
-	height: 100%;
+.width80{
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
-.margin-left{
-	margin-left: 10px;
-}
-.margin-right{
-	margin-right: 10px;
+.fullHeight{
+	height: 100%;
 }
 
 /*body {
@@ -87,7 +86,11 @@ a{
 
 
 div.section,section{
-	background: black;
+	background: #0B0B0C;
+}
+
+.siteColor{
+  color:#A5D8FF;
 }
 
 /*----------------------NAVBAR STYLES----------------------*/
@@ -97,7 +100,7 @@ div.section,section{
 	font-size: 18px;
 	height: 70px;
 	width: 100%;
-	background-color: black;
+	background-color: #0B0B0C;
 }
 
 .topnav_item {
@@ -177,15 +180,61 @@ div.section,section{
     }
   }
 
+  /*----------------------TOPNAV WHITE----------------------*/
+
+
+  .topnav_white{
+    justify-content: space-between;
+    font-size: 18px;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .topnav_item_white {
+    margin: 0 32px 0 0;
+    color: #0B0B0C;
+    text-align: right;
+  }
+  
+  .topnav_left{
+    float: left;
+  }
+  
+  .name_white{
+      color: #0B0B0C;
+      text-align: left;
+      float: left;
+      padding: 14px 0px;
+      text-decoration: none;
+      font-size: 32px;
+      font-family: 'Poppins';
+      font-weight: 200;
+      font-style: normal;
+      letter-spacing: 0em;
+      text-transform: none;
+      line-height: 1.4em;
+      padding-left: 40px;
+    }
+  
+    .topnav_white a:hover {
+      color: #A5D8FF;
+      text-decoration: none;
+      /*border-bottom: 1px solid rgb(190, 190, 190);
+      border-bottom-width: thin ;*/
+    }
+  
+    .topnav_item_white.active {
+      border-bottom: 1px solid #0B0B0C;
+    }
+
 /*----------------------FOOTER STYLES----------------------*/
 
 .contact {
-	height: 8vh; 
+  height: 8vh; 
+  background-color: #0B0B0C;
 }
-.contact__icon {
-	width: 30px;
-  margin: 0px 10px; 
-}
+
 #resume{
 	width: 30px;
 }
@@ -198,7 +247,8 @@ div.section,section{
 	align-items: center;
 	justify-content: space-between;
 	font-size: 18px;
-	font-weight: bold;
+  font-weight: 300;
+  font-family: Poppins;
 	height: 60px;
 	width: 100%;
 	z-index: 99;
@@ -207,7 +257,8 @@ div.section,section{
 
 .footer{
 	font-size: 12px;
-	color: darkgray;
+  color: darkgray;
+  background-color: #0B0B0C;
 }
 
 /* ------------------ FOOTER --------------------------*/
@@ -219,8 +270,26 @@ width: 30px;
 margin: 0px 10px; 
 }
 
+.contact__icon a:hover {
+  color: #A5D8FF;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
   .projectsRow {
  flex-direction: column; 
 } 
 }
+
+/* ------------------ FOOTER - WHITE --------------------------*/
+.contact_white {
+  height: 8vh; 
+  background-color: white;
+}
+
+.footer_white{
+	font-size: 12px;
+  color: darkgrey;
+  background-color: white;
+}
+

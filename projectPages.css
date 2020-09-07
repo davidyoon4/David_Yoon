@@ -8,7 +8,7 @@ html{
 
 /*----------------- ELEMENTS --------------------*/
 body{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 h3{
     font-weight: lighter;       
@@ -24,37 +24,65 @@ h1,h2{
     color: white;
     font-weight: 400;
     text-align: center;
-    padding: 0 20%; 
     line-height: 130%;
+}
+
+.introText_overlap{
+
+    font-family: "Open Sans";
+    font-size: 8vh;
+    color: #0B0B0C;
+    font-weight: 600;
+    line-height: 130%;
+    background: white;
+    padding-bottom: 1%;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.introSubtext{
+    font-family: "Poppins";
+    font-size: 2.88vh;
+    color: #0B0B0C;
+    font-weight: 300;
+}
+
+.introSection{
+    background: white;
+    padding: auto 0;
+    text-align: center;
+    height: 25vh;
 }
 
 .sectionHeader{
     font-family: "Poppins";
     font-size: 30px;
-    color: black;
+    color: #0B0B0C;
     font-weight: 600;
     padding-bottom: 1%;
 }
 
 .sectionText{
     font-family: "Poppins";
-    font-size: 20px;
-    color: black;
+    font-size: 1.25rem;
+    color: #0B0B0C;
     font-weight: 300;
+    text-align: left;
 }
 
 .sectionText_center{
     font-family: "Poppins";
-    font-size: 20px;
-    color: black;
+    font-size: 1.25rem;
+    color: #0B0B0C;
     font-weight: 300;
     text-align: center;
 }
 
 .sectionTextBold{
     font-family: "Poppins";
-    font-size: 20px;
-    color: black;
+    font-size: 1.25rem;
+    color: #0B0B0C;
     font-weight: 600;
     text-align: right;
 }
@@ -80,17 +108,38 @@ img {
 }
 
 
-.intro{
+.coverImage{
     height: 85vh;
+    width: 100%;
+}
+
+.introIG{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.coverImage{
-    height: 85vh;
-    width: 100%;
+.coverImage4{
+    height: 75vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.hero_caesar{
+    background-image: url('https://i.imgur.com/VRFr0Dc.png');
+}
+
+.hero_trunk{
+    background-image: url('https://i.imgur.com/ONBSCiF.png');
+}
+
+.hero_FTN{
+    background-image: url('https://i.imgur.com/cAJF1Vo.png');
+}
+
+
 
 /*----------------- COLLAPSIBLE SECTIONS --------------------*/
 
@@ -115,11 +164,11 @@ img {
   /* Style the collapsible content. Note: hidden by default */
   .content {
     font-family: "Poppins";
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     font-weight: 300;  
     transition: max-height 0.2s ease-out;
-    background-color: black;
+    background-color: #0B0B0C;
     max-height: 0;
     overflow: hidden;
     padding: 0% 10%;
@@ -138,20 +187,49 @@ img {
 
   .sectionHeader_exp{
     font-family: "Poppins";
-    font-size: 30px;
+    font-size: 1.825rem;
     color: white;
     font-weight: 600;
     padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.sectionSubheader_centerExp{
+    font-family: "Poppins";
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    padding-top: 4%;
     padding-bottom: 1%;
+    text-align: center;
+
 }
 
 .sectionHeader2_exp{
     font-family: "Poppins";
-    font-size: 24px;
+    font-size: 1.625rem;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
+    /*padding-bottom: 2%;*/
+}
+
+.quoteCenter{
+    font-family: "Poppins";
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    padding: 6% 0;
+    text-align: center;
+}
+
+.quoteCenter_person{
+    font-family: "Poppins";
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 200;
     padding-top: 4%;
     padding-bottom: 2%;
+    text-align: center;
 }
 
 .statHeader_exp{
@@ -165,7 +243,7 @@ img {
 }
 
 .statRow_item{
-    margin: 10px 20px;
+    margin: 10px 0px;
     position: relative;
 }
 
@@ -177,18 +255,44 @@ img {
 
 .sectionText_exp{
     font-family: "Poppins";
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     font-weight: 300;
 }
 
+.sectionText_exp_thin{
+    font-family: "Poppins";
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 200;
+}
+
 .sectionText_centerExp{
     font-family: "Poppins";
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     font-weight: 300;
     text-align: center;
 }
+
+.sectionText_centerExpBOLD{
+    font-family: "Poppins";
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.width75{
+    width: 75%;
+    margin: auto;
+}
+
+.imageRow{
+    padding: 0 2%;
+}
+
+/*======================================================================================================================================================================*/
 
 /*--------CONTEXT GRID--------*/
 .item1_context {
@@ -202,7 +306,7 @@ grid-template:
 'myArea myArea . . '
 'myArea myArea . . '
 'myArea myArea . . ';
-grid-gap: 20px;
+grid-gap: 1.25rem;
 background-color: white;
 padding: 10px 10px 10px 0px;
 }
@@ -219,7 +323,7 @@ padding: 10px 10px 10px 0px;
     display: grid;
     grid-template:
     'myArea myArea myArea';
-    gap: 20px;
+    gap: 1.25rem;
     background-color: white;
     padding: 10px 10px 10px 0px;
   }
@@ -234,7 +338,17 @@ padding: 10px 10px 10px 0px;
     margin: auto;
     font-family: "Poppins";
     font-size: 18px;
-    color: black;
+    color: #0B0B0C;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .caption100{
+    width: 100%;
+    margin: auto;
+    font-family: "Poppins";
+    font-size: 18px;
+    color: #0B0B0C;
     font-weight: 300;
     text-align: center;
   }
@@ -243,9 +357,9 @@ padding: 10px 10px 10px 0px;
 .grid-container_researchExp {
     display: grid;
     grid-template: auto auto auto / auto auto auto;;
-    gap: 20px;
-    background-color: black;
-    padding: 10px 10px 10px 0px;
+    gap: 1.25rem;
+    background-color: #0B0B0C;
+    padding: 10px 10px 0px 0px;
   }
 
 .grid-container_researchExp > div {
@@ -253,7 +367,153 @@ padding: 10px 10px 10px 0px;
     align-content: center;
   }
 
+  .grid-container_outcomesExp {
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;
+    gap: 6%;
+    background-color: #0B0B0C;
+    padding: 10px 10px 10px 0px;
+  }
+
+  .grid-container_outcomesExp > div {
+    text-align: center;
+    align-content: center;
+  }
+
+  .grid-container_1x1Exp {
+    display: grid;
+    grid-template: auto / auto;
+    gap: 6%;
+    background-color: #0B0B0C;
+    padding: 10px 10px 10px 0px;
+  }
+
+  .grid-container_1x1Exp > div {
+    text-align: center;
+    align-content: center;
+  }
+
+  /*--------2x2 GRID--------*/
+  .item1_2x2 {
+    grid-area: myArea;
+    text-align: left;
+    padding-bottom: 4%;
+  }
+
+  .grid-container_2x2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3%;
+    background-color: white;
+  }
+  
+  .grid-container_2x2 > div {
+    text-align: center;
+    align-content: center;
+  }
+
+  .grid-container_2x2_exp {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3%;
+    background-color: #0B0B0C;
+  }
+
+  .grid-container_2x2_exp > div {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+  }
+
+  .grid-container_2x2_expLeft {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3%;
+    background-color: #0B0B0C;
+  }
+
+  .grid-container_2x2_expLeft > div {
+    text-align: left;
+    align-content: center;
+    margin-top: 0;
+  }
+
+  /*--------4 WIDE GRID--------*/
+  .item1_research {
+    grid-area: myArea;
+    text-align: left;
+    padding-bottom: 4%;
+  }
+  
+.grid-container_4wide {
+    display: grid;
+    grid-template:
+    'myArea myArea myArea myArea';
+    gap: 1.25rem;
+    background-color: white;
+    padding: 10px 10px 10px 0px;
+  }
+
+.grid-container_4wide > div {
+    text-align: center;
+    align-content: center;
+  }
+
+  /*--------1x2 RIGHT GRID--------*/
+
+  .grid-container_1x2_right{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 3%;
+    background-color: #0B0B0C;
+    padding: 10px;
+  }
+  
+  .grid-container_1x2_right > div {
+    text-align: left;
+    align-content: center;
+    vertical-align: middle;
+  }
+
+/*======================================================================================================================================================================*/
+
   .captionExp{
+    width: 100%;
+    margin: auto;
+    color: white;
+    vertical-align: top !important;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 1% 0;;
+  }
+
+  .captionExp_left{
+    width: 100%;
+    margin: auto;
+    color: white;
+    vertical-align: top !important;
+    font-family: "Poppins";
+    font-size: 1.125rem;
+    font-weight: 300;
+    text-align: left;
+    padding: 1% 1%;
+  }
+
+  .captionExp_bold{
+    width: 100%;
+    margin: auto;
+    color: white;
+    vertical-align: top !important;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 1% 0;;
+  }
+
+  .captionExp30{
     width: 30%;
     margin: auto;
     color: white;
@@ -264,10 +524,120 @@ padding: 10px 10px 10px 0px;
     text-align: center;
   }
 
+  .captionExp50{
+    width: 50%;
+    margin: auto;
+    color: white;
+    vertical-align: top !important;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .captionExp65{
+    width: 65%;
+    margin: auto;
+    color: white;
+    vertical-align: top !important;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .captionExp85{
+    width: 85%;
+    margin: auto;
+    color: white;
+    vertical-align: top !important;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+/*======================================================================================================================================================================*/
+
+.marginBottom10{
+    margin-bottom: 10%;
+}
+
+.marginBottom8{
+    margin-bottom: 8%;
+}
+
+.marginBottom5{
+    margin-bottom: 5%;
+}
+
+.marginBottom3{
+    margin-bottom: 3%;
+}
+
+.marginRight3{
+    margin-right: 3%;
+}
+
+.margin-5{
+    margin: 0 -5%;
+}
+
+.marginAuto{
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+
+.padding4{
+    padding: 2%;
+    margin: 0;
+}
+
+.padding6{
+    padding: 6%;
+    margin: 0;
+}
+
+.paddingTop5{
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.padding3{
+    padding: 3% 0%;
+
+}
+
+
+.margin0{
+    margin: 0%;
+}
+
+.padding0{
+    padding: 0%;
+}
+
+.alignTop{
+    margin: 0 auto;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.width80{
+    width: 80%;
+    margin: auto;
+}
+
+/*======================================================================================================================================================================*/
+
+
 /* ---------------- FIGURES --------------------*/
 .figure{
     width: 100%;
-    margin: 15px;
+    padding: 2% 0%;
 }
 
 .researchIcon{
@@ -276,6 +646,12 @@ padding: 10px 10px 10px 0px;
 
 .rowPics3{
     width: 70%;
+}
+
+.figure30{
+    width: 30%;
+    padding: 4% 0%;
+    margin: auto;
 }
 
 .figure40{
@@ -288,6 +664,69 @@ padding: 10px 10px 10px 0px;
     padding: 2% 0%;
 }
 
+.figure50{
+    width: 50%;
+    padding: 2% 0%;
+}
+
+.figure55{
+    width: 55%;
+    padding: 2% 0%;
+}
+
+.figure60{
+    width: 60%;
+    padding: 2% 0%;
+}
+
+.figure65{
+    width: 65%;
+    padding: 2% 0%;
+}
+
+.figure70{
+    width: 70%;
+    padding: 2% 0%;
+}
+
+.figure80{
+    width: 80%;
+    padding: 2% 0%;
+}
+
+.figure85{
+    width: 85%;
+    padding: 2% 0%;
+}
+
+.figure90{
+    width: 90%;
+    padding: 2% 0%;
+}
+
+.figure95{
+    width: 95%;
+    padding: 2% 0%;
+}
+
+.figure110{
+    width: 110%;
+    padding: 2% 0%;
+}
+
+.figure120{
+    width: 120%;
+    /*padding: 2% 0%;*/
+    margin: 0 -1%;
+}
+
+.figure135{
+    width: 135%;
+    padding: 2% 0%;
+    margin: 0 -17.5%;
+}
+
+
 .card {
     /* Add shadows to create the "card" effect
     box-shadow: 0 4px 8px 0 gray;
@@ -295,10 +734,6 @@ padding: 10px 10px 10px 0px;
     margin: 5%;
 }
   
-  /* On mouse-over, add a deeper shadow
-.card:hover {
-    box-shadow: 0 6px 12px 0 gray;
-}*/
   
   /* Add some padding inside the card container */
 .container {
@@ -308,7 +743,7 @@ padding: 10px 10px 10px 0px;
 .figure--screen{
     width: 100%;
     margin: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
 .figure--video{
     margin-top: 50px;
@@ -322,25 +757,35 @@ padding: 10px 10px 10px 0px;
 }
 
 .gridPic{
-    width: 420px;
+    width: 41.25rem;
     margin: 15px;
 }
+/*======================================================================================================================================================================*/
+
 
 /* ---------------- LINKS --------------------*/
 .link{
-    color:#fc9f9f;
+    color:#A5D8FF;
 }
 .link:hover{
     text-decoration: underline;
+}
+
+.margin-left{
+	margin-left: 2%;
+}
+
+.margin-right{
+	margin-right: 2%;
 }
 
 
 /* ---------------- BUTTONS  --------------------*/
 
 .linkButton{
-    font-size:20px;
-    background-color:#fc9f9f;
-    padding:10px 20px;
+    font-size:1.25rem;
+    background-color:#A5D8FF;
+    padding:10px 1.25rem;
     border-radius:5px;
     color:white;
 }
@@ -367,6 +812,8 @@ padding: 10px 10px 10px 0px;
 .box__title{
     font-weight: bold;
 }
+/*======================================================================================================================================================================*/
+
 
 /* ---------------- COLORS  --------------------*/
 .IG_context{
@@ -383,6 +830,30 @@ padding: 10px 10px 10px 0px;
 
 .IG_userTesting{
     color: #D86A24;
+}
+
+.IG_outcome{
+    color: #D98331;
+}
+
+.trunkColor{
+    color: #2BB34C;
+}
+
+.caesarColor{
+    color: #7106D4;
+}
+
+.caesarColor_exp{
+    color: #9B51E0;
+}
+
+.caesarColor_red{
+    color: #FF0303;
+}
+
+.FTNColor{
+    color: #68D6CF;
 }
 
 

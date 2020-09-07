@@ -81,8 +81,8 @@ polygon.arrow-top {
 }
 .projectsRow__item:hover .projectTitle {
 	visibility: visible;
-  opacity: .4; 
-  background-color: black;
+  opacity: .3; 
+  background-color: #0B0B0C;
 }
 
 .projectTitle {
@@ -201,4 +201,9 @@ background: rgba(255, 255, 255, 0.7);
 .process_image{
   width: 50vh;
   height: 50vh;
+}
+
+.width85{
+  width:85%;
+  margin: auto;
 }

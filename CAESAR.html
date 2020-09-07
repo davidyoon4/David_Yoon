@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CAESAR Student Portal</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="David Yoon - Human Centered Product Designer, UX/UI engineer">
+        <meta name="author" content="David Yoon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="projectPages.css">
+        <link rel="stylesheet" type="text/css" href="globalStyles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        <link href="https:/fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="icon" href="https://i.imgur.com/lLlAmiK.png">
+      </head>
+
+
+    <body>
+      <!----------------------NAVBAR---------------------->
+        <div class="topnav_white flexRow" id="navbar">
+          <div class="topnav_left">
+            <a class="name_white" href="index.html">David Yoon</a>
+          </div> 
+          <div class="sections">
+              <a class="topnav_item_white" href="index.html">Home</a>
+              <a class="topnav_item_white active" href="projects.html">Projects</a>
+              <a class="topnav_item_white" href="about.html">About</a>
+              <a class="topnav_item_white" href="https://www.keepandshare.com/doc25/110157/yoon-david-resume-pdf-133k?da=y"target=_blank>Resume</a>               
+          </div>
+        </div>
+
+
+      <!----------------------TITLE SCREEN---------------------->
+      <div>
+        <div class="coverImage4 hero_caesar"></div>
+        <div class="introSection flexColumn">
+          <div class="introText_overlap">CAESAR</div> 
+          <div class="introSubtext">How might we make Northwestern's class registration process the standard for colleges around the nation?</div>
+        </div>
+      </div>
+
+
+      <!----------------------CONTEXT---------------------->
+      <div class="projectSection">
+        <h1 class="sectionHeader caesarColor">Context</h1>
+
+        <div class="grid-container_context">
+          <div class="item1_context sectionText">Northwestern’s student portal makes the necessary process of class registration a stressful and unnatural process for students. 
+            A friend and I sought to create an intuitive system that extends naturally from a student’s mental framework of registering for new classes.
+          </div>
+          <div class="item2 sectionTextBold">Timeline</div>
+          <div class="item3 sectionText">Feb - June 2020</div>  
+          <div class="item4 sectionTextBold">Roles</div>
+          <div class="item5 sectionText">Structuring project plan and leading user interviews and testing phases</div>
+          <div class="item6 sectionTextBold">Outcomes</div>
+          <div class="item7 sectionText">Desktop prototype</div>
+        </div>
+      </div>
+
+
+      <!----------------------RESEARCH---------------------->
+      <div>
+        <div class="projectSection">
+          <h1 class="sectionHeader caesarColor">Research</h1>
+
+          <div>
+            <div class="item1_research sectionText">We interviewed students across all 6 of Northwestern University’s undergraduate schools to understand the common problems in CAESAR’s user experience, 
+              focusing on the class registration experience. We then continued to information architecture (IA) and card-sorting tasks to discover these insights.</div>
+
+            </div>
+              <div class="grid-container_research">
+                <div class="item2"> <img class="figure55" src="https://i.imgur.com/IbXELT5.png"> </div>
+                <div class="item3"> <img class="figure65" src="https://i.imgur.com/oMFDqzA.png"> </div>  
+                <div class="item4"> <img class="figure55" src="https://i.imgur.com/X7bCXgP.png"> </div>
+                <div class="item5 caption alignTop">Poor IA and redundancy make the registration process feel slow and confusing</div>
+                <div class="item6 caption alignTop">CAESAR’s features don't facilitate class schedule planning</div>
+                <div class="item7 caption alignTop">Complex navigations cause delays in class registration and obscure target information</div>
+              </div>
+          </div>
+        </div>
+      <!----------------------RESEARCH+---------------------->
+        <button type="button" class="collapsible">Show me more</button>
+        <div class="content">
+          <div>
+            <h1 class="sectionHeader_exp caesarColor_exp">Research – cont.</h1>
+            <h2 class="sectionHeader2_exp">The people have spoken...</h2>
+            <div class="marginAuto"> <img class="figure95" src="https://i.imgur.com/n287eRC.png"></div>
+            <p class="sectionText_Exp marginBottom5">Most students use independent web apps to plan their class schedules before registration. CAESAR has poor organization and navigation systems, as well as <span class="caesarColor_exp">redundant pages</span> that create confusion.</p>
+          </div>
+
+
+          <div class="marginBottom5">
+            <h2 class="sectionHeader2_exp">CAESAR's Information Architecture</h2>
+            <div class="marginAuto"> <img class="figure95" src="https://i.imgur.com/xGkfxse.png"></div>
+            <p class="sectionText_Exp">We performed a content audit of CAESAR’s information architecture and performed a benchmark analysis against other schools to explore alternative practices.
+              Comparatively, CAESAR’s IA is too <span class="caesarColor_exp">horizontally broad</span> and uses <span class="caesarColor_exp">unintuitive categorization</span> of feature groups.</p>
+          </div>
+
+          <div class="marginBottom5"> 
+            <h2 class="sectionHeader2_exp">Card Sorting</h2>
+            <p class="sectionText_Exp">How might students best organize this information? We asked non-Northwestern students to complete a card-sorting task 
+              to prevent learned bias from confounding our results. Users consistently distinguished <span class="caesarColor_exp">schedule planning</span> and <span class="caesarColor_exp">class registration</span> as separate processes.</p>
+            <div class="marginAuto"> <img class="figure95" src="https://i.imgur.com/O6yLsQJ.png"></div>
+
+            <div class="marginBottom5">
+              <div class="grid-container_2x2_exp">
+                  <div class="item2 captionExp_left"><span class="captionExp_bold">1. &nbsp</span>&nbsp Participants distinguished <span class="caesarColor_exp">planning</span> and <span class="caesarColor_red">enrollment</span> as integral but separate stages in the registration process</div>
+                  <div class="item3 captionExp_left"><span class="captionExp_bold">2.  &nbsp</span>&nbsp Information was organized into 5 or fewer categories, validating the significant potential for simplifying the IA</div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     
+
+      <!----------------------PROTOTYPES---------------------->
+      <div>
+        <div class="projectSection">
+          <h1 class="sectionHeader caesarColor">Prototypes</h1>
+
+          <div>
+            <div class="item1_2x2 sectionText">Hand-sketching wireframes focused our efforts on generating ideas and quickly verifying concepts instead of focusing on details.
+              Then, collaboratively mocking up digital wireframes allowed us to further refine ideas and develop design details that impacted the overall user experience.</div>
+              <div class="grid-container_2x2">
+                <div class="item2"> <img class="figure" src="https://i.imgur.com/MfuOv6p.png"> </div>
+                <div class="item3"> <img class="figure" src="https://i.imgur.com/l3T9GW5.png"> </div>  
+                <div class="item4 caption alignTop">Initial ideation sprint, practicing generation of volume, rather than detail. Less planning, more sketching. Credit: Nick Halim.</div>
+                <div class="item5 caption alignTop">The sheer amount of information on CAESAR was definitely a hurdle. We really focused on how to condense info and make it easy for students to digest.</div>
+              </div>
+          </div>
+        </div>
+      
+
+        <!----------------------PROTOTYPES +---------------------->
+        <button type="button" class="collapsible">Show me more</button>
+        <div class="content">
+          <h1 class="sectionHeader_exp caesarColor_exp">Prototypes – cont.</h1> 
+
+          <div class="marginBottom5">
+            <h2 class="sectionHeader2_exp">User Personas</h2>
+
+            <div class="flexRow">
+              <div class="imageRow"> <img class="figure" src="https://i.imgur.com/QdfDS3B.png"> </div>
+              <div class="imageRow"> <img class="figure" src="https://i.imgur.com/gzEACEk.png"> </div>
+            </div>
+            <p class="captionExp_left">By creating 2 user personas based on the use cases and feedback from our research, we guided our design process with empathy for our target users.</p>
+          </div>
+          
+          <div class="marginBottom5">
+            <h2 class="sectionHeader2_exp">Journey Maps</h2>
+            <div>
+              <div class="grid-container_outcomesExp">
+                <div class="item1"> <img class="figure120 marginAuto" src="https://i.imgur.com/zVkQ6Nn.png"> </div>
+              </div> 
+              <div class="captionExp_left">We mapped out Josh and Judy’s experiences while trying to <span class="caesarColor_exp">register</span> for a class, realizing it filled up at the <span class="caesarColor_exp">last second,</span> and having to <span class="caesarColor_exp">improvise their schedule on the spot</span>. 
+                This use case was chosen as it encompasses the most commonly used features of CAESAR – as well as a truly tragic situation. </div>
+            </div>
+          </div>
+
+          <div class="marginBottom5">
+            <h2 class="sectionHeader2_exp">Low-Fi Digital Wireframes</h2>
+            <div>
+              <div class="grid-container_outcomesExp">
+                <div class="item1"> <img class="figure120 marginAuto" src="https://i.imgur.com/jR8rNSv.png"> </div>
+              </div> 
+              <div class="captionExp_left">During a time of Covid-19 and remote...everything, Figma allowed us to collaborate and iterate efficiently. 
+                Producing wireframes such as these provided a foundation for our updated design flow as well as a base for user testing.</div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    <!----------------------USER TESTING---------------------->
+    <div>
+      <div class="projectSection">
+        <h1 class="sectionHeader caesarColor">User Testing</h1>
+
+        <div>
+          <div class="item1_research sectionText">After developing some initial prototypes, we asked students at NU to walk through them and provide feedback. 
+            Similarly to our initial research, issues of redundancy and efficiency repeatedly came up. These were our key takeaways:</div>
+            <div class="grid-container_research">
+              <div class="item2"> <img class="researchIcon" src="https://i.imgur.com/Pq0cY4J.png"> </div>
+              <div class="item3"> <img class="researchIcon" src="https://i.imgur.com/l2e3yVh.png"> </div>  
+              <div class="item4"> <img class="researchIcon" src="https://i.imgur.com/AUnw2u3.png"> </div>
+              <div class="item5 caption alignTop">It takes too long for students to get from log-in to class scheduling</div>
+              <div class="item6 caption alignTop">Lack of planning tools does little to relieve the panic that is class registration</div>
+              <div class="item7 caption alignTop">Small miscues throughout CAESAR compound on the already tedious process of registering</div>
+            </div>
+        </div>
+      </div>
+
+        
+    <!----------------------OUTCOMES---------------------->
+    <div>
+      <div class="projectSection">
+        <h1 class="sectionHeader caesarColor">Outcomes</h1>
+
+        <div>
+          <div class="item1_research sectionText">Building on our research and testing, we were able to reimagine CAESAR with 4 key features. 
+            They would allow students the flexibility, speed, and peace of mind that is severely lacking during Northwestern's class registration process.</div>
+
+            <div class="item1_research marginAuto"> <img class="padding0 figure marginAuto" src="https://i.imgur.com/7Qn4rzb.png"></div>
+
+            <div class="grid-container_4wide">
+              <div class="item2 caption30"><span class="sectionText caesarColor">New Dashboard</span><br>Immediate access to crucial features and info</div>
+              <div class="item3 caption30"><span class="sectionText caesarColor">A Natural Flow</span><br>Plan, Enroll, Revise. Simulating the students' mental models</div>
+              <div class="item4 caption30"><span class="sectionText caesarColor">Mock Schedules</span><br>Plan multiple schedule versions to minimize risk and stress</div>
+              <div class="item5 caption30"><span class="sectionText caesarColor">It's Okay – Revise!</span><br><del>If</del> When something goes wrong, quickly tweak your schedule</div>
+            </div>
+        </div>
+      </div>
+
+
+      <!----------------------OUTCOMES+---------------------->
+      <button type="button" class="collapsible">Show me more</button>
+      <div class="content">
+        <h1 class="sectionHeader_exp caesarColor_exp">Outcomes – cont.</h1>
+
+        <div class="marginBottom10">
+          <p class="sectionHeader2_exp margin0">Dashboard & Landing Page</p>
+
+          <div class="flexRow">
+            <div class="sectionText_exp_thin alignTop">I completely overhauled the existing landing page and turned it into a dashboard. The goal is to give the user <span class="caesarColor_exp">immediate access to CAESAR’s most crucial information</span> and features, thereby reducing the need to navigate through the website.</div>
+            <div class="marginAuto"><img class="padding0 figure95 marginAuto" src="https://i.imgur.com/7Qn4rzb.png"></div>
+          </div>
+        
+          <div class="grid-container_2x2_exp">
+            <div class="item2"> <img class="figure70 marginAuto" src="https://i.imgur.com/3ZHPtfF.png"> </div>
+            <div class="item3"> <img class="figure80 marginAuto" src="https://i.imgur.com/h34bynU.png"> </div>  
+            <div class="item4 captionExp85 alignTop">Select classes to keep tabs on and <span class="caesarColor_exp">track seat availability</span> – minimizing surprises on registration day</div>
+            <div class="item5 captionExp85 alignTop">Each student has <span class="caesarColor_exp">different priorities</span> and uses for CAESAR. Custom links let them access their favorite features, <span class="caesarColor_exp">fast</span></div>
+          </div>
+        </div>
+
+        <div class="marginBottom5">
+          <p class="sectionHeader2_exp margin0">A Natural Flow: Plan, Enroll, Revise</p>
+
+          <div class="flexRow_left">
+            <div class="marginAuto paddingTop5"><img class=" figure85" src="https://i.imgur.com/H8UTQPa.png"></div>
+            <div class="sectionText_exp_thin alignTop">Our new class registration flow naturally mimics the linear mental models identified during research.<br><br>
+              We integrated a <span class="caesarColor_exp">dedicated planning feature</span> into CAESAR, eliminating the need for third-party tools.
+              </div>
+
+          </div>
+        </div>
+
+        <div class="marginBottom10">
+          <p class="sectionHeader2_exp margin0">Mock Schedules</p>
+
+          <div class="flexRow">
+            <div class="sectionText_exp_thin alignTop">Adding a mock schedule directly to a user’s shopping cart eases the transition from planning to enrolling.<br><br>
+              An <span class="caesarColor_exp">undo option</span> – inspired by <span class="caesarColor_exp">Jef Raskin’s principles of HCI</span> – appears after a schedule is added to the cart. The alternative, a confirmation box, is ineffective as it fades out of a user’s locus of attention and causes habit formation to harm the user.
+              </div>
+            <div class="marginAuto padding4"><img class=" figure110" src="https://i.imgur.com/64K3vjX.png"></div>
+
+          </div>
+        </div>
+        
+        <div class="marginBottom5">
+          <p class="sectionHeader2_exp margin0">Drop, Swap, Enroll</p>
+
+          <div class="flexColumn">
+            <div class="sectionText_exp_thin alignTop paddingTop5">When making changes to a class schedule, delays always risk a <span class="caesarColor_exp">student’s preferred class filling up.</span> Being able to <span class="caesarColor_exp">make quick changes</span> to a student’s current schedule is important, and we made tweaks to the existing features to facilitate this process.</div>
+            <div class="marginAuto"><img class="figure" src="https://i.imgur.com/XEJ5p3d.png"></div>
+            <div class="marginAuto"><img class="figure" src="https://i.imgur.com/YbmgTye.png"></div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+      <!----------------------REFLECTION---------------------->
+      <div class="projectSection">
+        <h1 class="sectionHeader caesarColor">Reflection</h1>
+
+        <div class="grid-container_context">
+          <div class="item1_context sectionText">I was definitely <span class="caesarColor">passionate</span> about reworking a tool that is so instrumental to a Northwestern student's academic journey. 
+            Working with a <span class="caesarColor">great friend</span> also reminded me of the importance of empathizing not only with users but also with <span class="caesarColor">fellow teammates and designers.</span></div>
+          <div class="item2 sectionTextBold">Pat on the Back</div>
+          <div class="item3 sectionText">Executing the human-centered design process and reiterating on designs based on feedback</div>  
+          <div class="item4 sectionTextBold">Lessons Learned</div>
+          <div class="item5 sectionText">Leading a product design and setting timelines for checkpoints in the project process</div>
+          <div class="item6 sectionTextBold">Moving Forward</div>
+          <div class="item7 sectionText">Present work to relevant NU faculty to explore future implementation and use</div>
+        </div>
+      </div>
+
+      <!----------------------PROJECT BOTTOM NAV---------------------->
+      <div class="bottomNav">
+        <a class="link margin-left" href="FTN.html">← Five To Nine</a>
+        <a class="link margin-right" href="IG_Redesign.html">Instagram Redesign →</a>
+      </div>
+
+
+
+      <!----------------------FOOTER---------------------->
+        <div class="contact_white flexRow">
+          <a href="https://www.linkedin.com/in/david-yoon-473792159/" target=_blank><img class="contact__icon"
+              src="https://i.imgur.com/AS8VUHd.png"></a>
+
+          <a href="https://www.keepandshare.com/doc25/110157/yoon-david-resume-pdf-133k?da=y" target=_blank><img class="contact__icon" id="resume"
+              src="https://i.imgur.com/v5UFOZe.png"></a>
+
+          <a href="mailto:david.yoon@u.northwestern.edu" target=_blank><img class="contact__icon" id="mail"
+              src="https://i.imgur.com/ACNTOmh.png"></a>
+        </div>
+        <div class="footer_white flexRow">Designed and developed by David Yoon. All rights reserved.</div>
+
+
+
+    </body>
+    <script src="topnav.js"></script>
+    <script src="collapsible.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
+
+
+    
