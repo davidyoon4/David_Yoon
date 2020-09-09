@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
         <link rel="icon" href="https://i.imgur.com/vxNsu5K.png">
+        <link rel="stylesheet" type="text/css" href="lightbox.css" >
       </head>
 
 
@@ -34,7 +35,7 @@
         <div class="coverImage4 hero_caesar"></div>
         <div class="introSection flexColumn">
           <div class="introText_overlap">CAESAR</div> 
-          <div class="introSubtext">How might we make Northwestern's class registration process the standard for colleges around the nation?</div>
+          <div class="introSubtext">How might we harness the excitement of a new quarter through Northwestern's class registration process?</div>
         </div>
       </div>
 
@@ -90,7 +91,10 @@
 
           <div class="marginBottom5">
             <h2 class="sectionHeader2_exp">CAESAR's Information Architecture</h2>
-            <div class="marginAuto"> <img class="figure95" src="https://i.imgur.com/xGkfxse.png"></div>
+            <div class="marginAuto"><a href="https://i.imgur.com/xGkfxse.png" data-lightbox="Caesar-1">
+              <img class="figure95" src="https://i.imgur.com/xGkfxse.png">
+            </a></div>
+
             <p class="sectionText_Exp">We performed a content audit of CAESAR’s information architecture and performed a benchmark analysis against other schools to explore alternative practices.
               Comparatively, CAESAR’s IA is too <span class="caesarColor_exp">horizontally broad</span> and uses <span class="caesarColor_exp">unintuitive categorization</span> of feature groups.</p>
           </div>
@@ -99,7 +103,7 @@
             <h2 class="sectionHeader2_exp">Card Sorting</h2>
             <p class="sectionText_Exp">How might students best organize this information? We asked non-Northwestern students to complete a card-sorting task 
               to prevent learned bias from confounding our results. Users consistently distinguished <span class="caesarColor_exp">schedule planning</span> and <span class="caesarColor_exp">class registration</span> as separate processes.</p>
-            <div class="marginAuto"> <img class="figure95" src="https://i.imgur.com/O6yLsQJ.png"></div>
+            <div class="marginAuto"><img class="figure95" src="https://i.imgur.com/O6yLsQJ.png"></div>
 
             <div class="marginBottom5">
               <div class="grid-container_2x2_exp">
@@ -122,8 +126,12 @@
             <div class="item1_2x2 sectionText">Hand-sketching wireframes focused our efforts on generating ideas and quickly verifying concepts instead of focusing on details.
               Then, collaboratively mocking up digital wireframes allowed us to further refine ideas and develop design details that impacted the overall user experience.</div>
               <div class="grid-container_2x2">
-                <div class="item2"> <img class="figure" src="https://i.imgur.com/MfuOv6p.png"> </div>
-                <div class="item3"> <img class="figure" src="https://i.imgur.com/l3T9GW5.png"> </div>  
+                <div class="item2"><a href="https://i.imgur.com/MfuOv6p.png" data-lightbox="Caesar-3">
+                  <img class="figure" src="https://i.imgur.com/MfuOv6p.png">
+                </a> </div>
+                <div class="item3"><a href="https://i.imgur.com/l3T9GW5.png" data-lightbox="Caesar-4">
+                  <img class="figure" src="https://i.imgur.com/l3T9GW5.png">
+                </a> </div>  
                 <div class="item4 caption alignTop">Initial ideation sprint, practicing generation of volume, rather than detail. Less planning, more sketching. Credit: Nick Halim.</div>
                 <div class="item5 caption alignTop">The sheer amount of information on CAESAR was definitely a hurdle. We really focused on how to condense info and make it easy for students to digest.</div>
               </div>
@@ -140,8 +148,12 @@
             <h2 class="sectionHeader2_exp">User Personas</h2>
 
             <div class="flexRow">
-              <div class="imageRow"> <img class="figure" src="https://i.imgur.com/QdfDS3B.png"> </div>
-              <div class="imageRow"> <img class="figure" src="https://i.imgur.com/gzEACEk.png"> </div>
+              <div class="imageRow"><a href="https://i.imgur.com/QdfDS3B.png" data-lightbox="Caesar-5">
+                <img class="figure" src="https://i.imgur.com/QdfDS3B.png"> 
+              </a></div>
+              <div class="imageRow"> <a href="https://i.imgur.com/gzEACEk.png" data-lightbox="Caesar-6">
+                <img class="figure" src="https://i.imgur.com/gzEACEk.png">
+              </a> </div>
             </div>
             <p class="captionExp_left">By creating 2 user personas based on the use cases and feedback from our research, we guided our design process with empathy for our target users.</p>
           </div>
@@ -150,7 +162,9 @@
             <h2 class="sectionHeader2_exp">Journey Maps</h2>
             <div>
               <div class="grid-container_outcomesExp">
-                <div class="item1"> <img class="figure120 marginAuto" src="https://i.imgur.com/zVkQ6Nn.png"> </div>
+                <div class="item1"> <a href="https://i.imgur.com/zVkQ6Nn.png" data-lightbox="Caesar-7">
+                  <img class="figure120 marginAuto" src="https://i.imgur.com/zVkQ6Nn.png">
+                </a> </div>
               </div> 
               <div class="captionExp_left">We mapped out Josh and Judy’s experiences while trying to <span class="caesarColor_exp">register</span> for a class, realizing it filled up at the <span class="caesarColor_exp">last second,</span> and having to <span class="caesarColor_exp">improvise their schedule on the spot</span>. 
                 This use case was chosen as it encompasses the most commonly used features of CAESAR – as well as a truly tragic situation. </div>
@@ -223,12 +237,18 @@
 
           <div class="flexRow">
             <div class="sectionText_exp_thin alignTop">I completely overhauled the existing landing page and turned it into a dashboard. The goal is to give the user <span class="caesarColor_exp">immediate access to CAESAR’s most crucial information</span> and features, thereby reducing the need to navigate through the website.</div>
-            <div class="marginAuto"><img class="padding0 figure95 marginAuto" src="https://i.imgur.com/7Qn4rzb.png"></div>
+            <div class="marginAuto"><a href="https://i.imgur.com/7Qn4rzb.png" data-lightbox="Caesar-8">
+              <img class="padding0 figure95 marginAuto" src="https://i.imgur.com/7Qn4rzb.png">
+            </a></div>
           </div>
         
           <div class="grid-container_2x2_exp">
-            <div class="item2"> <img class="figure70 marginAuto" src="https://i.imgur.com/3ZHPtfF.png"> </div>
-            <div class="item3"> <img class="figure80 marginAuto" src="https://i.imgur.com/h34bynU.png"> </div>  
+            <div class="item2"> <a href="https://i.imgur.com/3ZHPtfF.png" data-lightbox="Caesar-9">
+              <img class="figure70 marginAuto" src="https://i.imgur.com/3ZHPtfF.png">
+            </a> </div>
+            <div class="item3"> <a href="https://i.imgur.com/h34bynU.png" data-lightbox="Caesar-10">
+              <img class="figure80 marginAuto" src="https://i.imgur.com/h34bynU.png">
+            </a> </div>  
             <div class="item4 captionExp85 alignTop">Select classes to keep tabs on and <span class="caesarColor_exp">track seat availability</span> – minimizing surprises on registration day</div>
             <div class="item5 captionExp85 alignTop">Each student has <span class="caesarColor_exp">different priorities</span> and uses for CAESAR. Custom links let them access their favorite features, <span class="caesarColor_exp">fast</span></div>
           </div>
@@ -238,7 +258,9 @@
           <p class="sectionHeader2_exp margin0">A Natural Flow: Plan, Enroll, Revise</p>
 
           <div class="flexRow_left">
-            <div class="marginAuto paddingTop5"><img class=" figure85" src="https://i.imgur.com/H8UTQPa.png"></div>
+            <div class="marginAuto paddingTop5"><a href="https://i.imgur.com/H8UTQPa.png" data-lightbox="Caesar-11">
+              <img class=" figure85" src="https://i.imgur.com/H8UTQPa.png">
+            </a></div>
             <div class="sectionText_exp_thin alignTop">Our new class registration flow naturally mimics the linear mental models identified during research.<br><br>
               We integrated a <span class="caesarColor_exp">dedicated planning feature</span> into CAESAR, eliminating the need for third-party tools.
               </div>
@@ -253,7 +275,9 @@
             <div class="sectionText_exp_thin alignTop">Adding a mock schedule directly to a user’s shopping cart eases the transition from planning to enrolling.<br><br>
               An <span class="caesarColor_exp">undo option</span> – inspired by <span class="caesarColor_exp">Jef Raskin’s principles of HCI</span> – appears after a schedule is added to the cart. The alternative, a confirmation box, is ineffective as it fades out of a user’s locus of attention and causes habit formation to harm the user.
               </div>
-            <div class="marginAuto padding4"><img class=" figure110" src="https://i.imgur.com/64K3vjX.png"></div>
+            <div class="marginAuto padding4"><a href="https://i.imgur.com/64K3vjX.png" data-lightbox="Caesar-12">
+              <img class=" figure110" src="https://i.imgur.com/64K3vjX.png">
+            </a></div>
 
           </div>
         </div>
@@ -263,8 +287,12 @@
 
           <div class="flexColumn">
             <div class="sectionText_exp_thin alignTop paddingTop5">When making changes to a class schedule, delays always risk a <span class="caesarColor_exp">student’s preferred class filling up.</span> Being able to <span class="caesarColor_exp">make quick changes</span> to a student’s current schedule is important, and we made tweaks to the existing features to facilitate this process.</div>
-            <div class="marginAuto"><img class="figure" src="https://i.imgur.com/XEJ5p3d.png"></div>
-            <div class="marginAuto"><img class="figure" src="https://i.imgur.com/YbmgTye.png"></div>
+            <div class="marginAuto"><a href="https://i.imgur.com/XEJ5p3d.png" data-lightbox="Caesar-13">
+              <img class="figure" src="https://i.imgur.com/XEJ5p3d.png">
+            </a></div>
+            <div class="marginAuto"><a href="https://i.imgur.com/YbmgTye.png" data-lightbox="Caesar-14">
+              <img class="figure" src="https://i.imgur.com/YbmgTye.png">
+            </a></div>
 
           </div>
         </div>
@@ -314,6 +342,7 @@
     </body>
     <script src="topnav.js"></script>
     <script src="collapsible.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </html>
