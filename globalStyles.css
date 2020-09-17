@@ -1,7 +1,7 @@
 /*----------------------ELEMENTS----------------------*/
 
 html body {
-    background-color: rgba(0,0,0, 1.0);
+    background-color: #0B0B0C;
 }
 
 html{
@@ -74,6 +74,14 @@ a{
   color: white;
   font-weight: 300;
   margin-bottom: 20px;
+}
+
+.sectionTitle1{
+  font-family: "Poppins";
+  font-size: 28px;
+  color: white;
+  font-weight: 200;
+  margin-bottom: 1%;
 }
 
 .sectionSubtitle{

@@ -101,7 +101,7 @@ img {
 /*----------------- SECTIONS --------------------*/
 
 .projectSection{
-    padding: 4% 10% 4% 10%;
+    padding: 4% 12%;
     background: white;
     box-shadow: 0px -1px 1px 0px lightgray;
 }
@@ -156,8 +156,6 @@ img {
     font-weight: 300;
     padding: 2% 10%;
     box-shadow: 0px 1px 1px 0px lightgray;
-
-
   }
   
   /* Style the collapsible content. Note: hidden by default */
@@ -182,6 +180,55 @@ img {
   
   .activeCollapsible:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .readMore_FTN{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: #02A297;
+    border-bottom-width: 5px;
+  }
+
+  .readMore_Caesar{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: #7106D4;
+    border-bottom-width: 5px;
+  }
+
+  .readMore_Trunk{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: #2BB34C;
+    border-bottom-width: 5px;
+  }
+
+  .readMore_IG_research{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: #B5005E;
+    border-bottom-width: 5px;
+  }
+
+  .readMore_IG_context{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: #94018C;
+    border-bottom-width: 5px;
+  }
+
+  .readMore_IG_userTesting{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: #D86A24;
+    border-bottom-width: 5px;
+  }
+
+  .readMore_IG_outcome{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: #D98331;
+    border-bottom-width: 5px;
   }
 
   .sectionHeader_exp{
@@ -722,7 +769,7 @@ padding: 10px 10px 10px 0px;
 .figure135{
     width: 135%;
     padding: 2% 0%;
-    margin: 0 -17.5%;
+    margin: 0 -13.5%;
 }
 
 
@@ -740,9 +787,7 @@ padding: 10px 10px 10px 0px;
 }
 
 .figure--screen{
-    width: 100%;
-    margin: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 1.25rem 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 1px 1px 50px grey;
 }
 .figure--video{
     margin-top: 50px;
@@ -819,6 +864,10 @@ padding: 10px 10px 10px 0px;
     color: #94018C;
 }
 
+.IG_context_exp{
+    color: #B701AE;
+}
+
 .IG_research{
     color: #B5005E;
 }
@@ -836,6 +885,10 @@ padding: 10px 10px 10px 0px;
 }
 
 .trunkColor{
+    color: #28A447;
+}
+
+.trunkColor_exp{
     color: #2BB34C;
 }
 
@@ -844,7 +897,7 @@ padding: 10px 10px 10px 0px;
 }
 
 .caesarColor_exp{
-    color: #9B51E0;
+    color: #A448F9;
 }
 
 .caesarColor_red{
@@ -852,9 +905,12 @@ padding: 10px 10px 10px 0px;
 }
 
 .FTNColor{
-    color: #68D6CF;
+    color: #02A297;
 }
 
+.FTNColor_exp{
+    color: #68D6CF;
+}
 
 
 .projectInfoRow {
